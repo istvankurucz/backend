@@ -1,0 +1,19 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "Webserver for e-commerce site.",
+	"proxy": "<http://localhost:3000>",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "István Kurucz",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"stripe": "^14.3.0"
+	}
+}
